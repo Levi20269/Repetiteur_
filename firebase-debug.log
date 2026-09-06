@@ -1,0 +1,128 @@
+[debug] [2026-09-05T21:55:08.062Z] ----------------------------------------------------------------------
+[debug] [2026-09-05T21:55:08.079Z] Command:       /usr/local/bin/firebase /home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase login --no-localhost
+[debug] [2026-09-05T21:55:08.079Z] CLI Version:   15.28.2
+[debug] [2026-09-05T21:55:08.080Z] Platform:      linux
+[debug] [2026-09-05T21:55:08.080Z] Node Version:  v20.18.2
+[debug] [2026-09-05T21:55:08.080Z] Detected Agent: codex_cli
+[debug] [2026-09-05T21:55:08.080Z] Time:          Sat Sep 05 2026 21:55:08 GMT+0000 (Greenwich Mean Time)
+[debug] [2026-09-05T21:55:08.081Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-05T21:55:08.101Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-09-05T21:55:08.402Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2026-09-05T21:55:08.402Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"1e126270-9926-4270-a6fb-3b6a204e2f0e"}
+[debug] [2026-09-05T21:55:09.817Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-09-05T21:55:09.817Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-09-05T21:55:10.132Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2026-09-05T21:55:10.133Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"_J59WEw_g-5ihyfhJzeq-zn5M_qaimaXz6-5MwPWnBg"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    1E126
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=L8SzxgePAOqXsmO9QbOAW6B_zCYnozpV9q4Xrlg0Q-M&session=1e126270-9926-4270-a6fb-3b6a204e2f0e&attest=_J59WEw_g-5ihyfhJzeq-zn5M_qaimaXz6-5MwPWnBg
+[info] 
+[info] 3. Complete the login by running:
+[info] 
+[info]    firebase login <authorizationCode>
+[info] 
+[debug] [2026-09-05T21:55:20.171Z] Error: Timed out.
+    at Timeout._onTimeout (/home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:296:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-09-05T21:57:17.064Z] ----------------------------------------------------------------------
+[debug] [2026-09-05T21:57:17.067Z] Command:       /usr/local/bin/firebase /home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:list
+[debug] [2026-09-05T21:57:17.067Z] CLI Version:   15.28.2
+[debug] [2026-09-05T21:57:17.067Z] Platform:      linux
+[debug] [2026-09-05T21:57:17.067Z] Node Version:  v20.18.2
+[debug] [2026-09-05T21:57:17.068Z] Detected Agent: codex_cli
+[debug] [2026-09-05T21:57:17.068Z] Time:          Sat Sep 05 2026 21:57:17 GMT+0000 (Greenwich Mean Time)
+[debug] [2026-09-05T21:57:17.068Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-05T21:57:17.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-09-05T21:57:17.292Z] > authorizing via signed-in user (ouattaralevi365@gmail.com)
+[debug] [2026-09-05T21:57:17.314Z] Checked if tokens are valid: false, expires at: 1788102686125
+[debug] [2026-09-05T21:57:17.315Z] Checked if tokens are valid: false, expires at: 1788102686125
+[debug] [2026-09-05T21:57:17.315Z] > refreshing access token with scopes: []
+[debug] [2026-09-05T21:57:17.318Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-09-05T21:57:17.318Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-09-05T21:57:24.727Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-09-05T21:57:24.727Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-09-05T21:57:24.806Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-09-05T21:57:32.384Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-09-05T21:57:32.384Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] No projects found.
+[debug] [2026-09-05T21:57:49.932Z] ----------------------------------------------------------------------
+[debug] [2026-09-05T21:57:49.936Z] Command:       /usr/local/bin/firebase /home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:create mon-repetiteur-2026-levi --display-name Mon Répétiteur
+[debug] [2026-09-05T21:57:49.936Z] CLI Version:   15.28.2
+[debug] [2026-09-05T21:57:49.936Z] Platform:      linux
+[debug] [2026-09-05T21:57:49.936Z] Node Version:  v20.18.2
+[debug] [2026-09-05T21:57:49.937Z] Detected Agent: codex_cli
+[debug] [2026-09-05T21:57:49.937Z] Time:          Sat Sep 05 2026 21:57:49 GMT+0000 (Greenwich Mean Time)
+[debug] [2026-09-05T21:57:49.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-05T21:57:50.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-09-05T21:57:50.171Z] > authorizing via signed-in user (ouattaralevi365@gmail.com)
+[debug] [2026-09-05T21:57:50.189Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:57:50.189Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:57:50.191Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-09-05T21:57:50.191Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mon-repetiteur-2026-levi","name":"Mon Répétiteur"}
+[debug] [2026-09-05T21:57:51.489Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2026-09-05T21:57:51.490Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [display_name] has issue [project display name contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2026-09-05T21:57:52.629Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, field [display_name] has issue [project display name contains invalid characters]
+    at responseToError (/home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2026-09-05T21:58:03.522Z] ----------------------------------------------------------------------
+[debug] [2026-09-05T21:58:03.527Z] Command:       /usr/local/bin/firebase /home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:create mon-repetiteur-2026-levi --display-name Mon Repetiteur
+[debug] [2026-09-05T21:58:03.527Z] CLI Version:   15.28.2
+[debug] [2026-09-05T21:58:03.528Z] Platform:      linux
+[debug] [2026-09-05T21:58:03.528Z] Node Version:  v20.18.2
+[debug] [2026-09-05T21:58:03.529Z] Detected Agent: codex_cli
+[debug] [2026-09-05T21:58:03.529Z] Time:          Sat Sep 05 2026 21:58:03 GMT+0000 (Greenwich Mean Time)
+[debug] [2026-09-05T21:58:03.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-05T21:58:03.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-09-05T21:58:03.761Z] > authorizing via signed-in user (ouattaralevi365@gmail.com)
+[debug] [2026-09-05T21:58:03.778Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:03.779Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:03.781Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-09-05T21:58:03.781Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mon-repetiteur-2026-levi","name":"Mon Repetiteur"}
+[debug] [2026-09-05T21:58:06.691Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2026-09-05T21:58:06.692Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.4707231921225480834"}
+[debug] [2026-09-05T21:58:06.695Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:06.695Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:06.696Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 [none]
+[debug] [2026-09-05T21:58:07.400Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 200
+[debug] [2026-09-05T21:58:07.401Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 {"name":"operations/create_project.global.4707231921225480834"}
+[debug] [2026-09-05T21:58:07.904Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-09-05T21:58:07.905Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:07.906Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:07.907Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 [none]
+[debug] [2026-09-05T21:58:08.442Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 200
+[debug] [2026-09-05T21:58:08.443Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 {"name":"operations/create_project.global.4707231921225480834"}
+[debug] [2026-09-05T21:58:09.444Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-09-05T21:58:09.445Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:09.446Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:09.446Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 [none]
+[debug] [2026-09-05T21:58:09.983Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 200
+[debug] [2026-09-05T21:58:09.983Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.4707231921225480834 {"name":"operations/create_project.global.4707231921225480834","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"473262514882","projectId":"mon-repetiteur-2026-levi","lifecycleState":"ACTIVE","name":"Mon Repetiteur","createTime":"2026-09-05T21:58:04.976Z"}}
+[debug] [2026-09-05T21:58:09.987Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:09.988Z] Checked if tokens are valid: true, expires at: 1788649043728
+[debug] [2026-09-05T21:58:09.990Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/mon-repetiteur-2026-levi:addFirebase [none]
+[debug] [2026-09-05T21:58:12.508Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/mon-repetiteur-2026-levi:addFirebase 403
+[debug] [2026-09-05T21:58:12.509Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/mon-repetiteur-2026-levi:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-09-05T21:58:12.512Z] Request to https://firebase.googleapis.com/v1beta1/projects/mon-repetiteur-2026-levi:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-09-05T21:58:17.525Z] Error: Timed out.
+    at Timeout._onTimeout (/home/levi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:296:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
