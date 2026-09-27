@@ -1,0 +1,80 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Mon Répétiteur",
+  "welcome": "Bonjour",
+  "readyToLearn": "Prêt(e) pour votre session d’entraînement ?",
+  "completedExercises": "{count} terminés",
+  "@completedExercises": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "successRate": "{rate}% réussite",
+  "@successRate": {
+    "placeholders": {
+      "rate": { "type": "int" }
+    }
+  },
+  "level": "Niveau {level}",
+  "@level": {
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  },
+  "mySubjects": "Vos matières",
+  "myCourses": "Vos cours",
+  "seeAll": "Tout voir",
+  "navHome": "Accueil",
+  "navCourses": "Cours",
+  "navExercises": "Exercices",
+  "navQuiz": "Quiz",
+  "navProgress": "Progrès",
+  "navProfile": "Profil",
+  "courseDetail": "Détail du cours",
+  "courseObjectives": "Objectifs du chapitre",
+  "courseSummary": "Résumé du cours",
+  "courseKeyConcepts": "Notions importantes",
+  "courseExamples": "Exemples d’application",
+  "associatedExercises": "Exercices associés",
+  "startExercises": "S’entraîner sur ce cours",
+  "startQuiz": "Lancer le Quiz",
+  "question": "Question",
+  "chooseAnswer": "Choisissez la bonne réponse :",
+  "validateAnswer": "Valider ma réponse",
+  "validating": "Validation...",
+  "congratulations": "Bravo ! Excellente réponse",
+  "wrongAnswer": "Pas tout à fait...",
+  "explanation": "Explication pédagogique",
+  "detailedCorrection": "Correction détaillée",
+  "retry": "Recommencer",
+  "viewProgress": "Voir mes progrès",
+  "averageScore": "Score moyen",
+  "completed": "Réussis",
+  "recentHistory": "Historique récent",
+  "myProfile": "Mon Profil",
+  "language": "Langue d'affichage",
+  "french": "Français",
+  "english": "Anglais",
+  "clearCache": "Vider le cache local",
+  "clearCacheSubtitle": "Réinitialise le stockage local",
+  "cacheCleared": "Cache local actualisé avec succès.",
+  "logout": "Se déconnecter",
+  "demoMode": "Mode Démo / Local",
+  "cloudMode": "Connecté à Firebase",
+  "noSubjects": "Aucune matière disponible pour le moment.",
+  "noCourses": "Aucun cours disponible pour le moment.",
+  "noExercises": "Aucun exercice disponible pour le moment.",
+  "noProgress": "Vous n’avez pas encore complété d’exercice.",
+  "startAnExercise": "Commencer un exercice",
+  "errorOccurred": "Un problème est survenu",
+  "tryAgain": "Réessayer",
+  "quizTitle": "Quiz d’évaluation",
+  "quizFinished": "Quiz terminé !",
+  "quizScore": "Votre score : {score}%",
+  "@quizScore": {
+    "placeholders": {
+      "score": { "type": "int" }
+    }
+  },
+  "backToDashboard": "Retour au tableau de bord"
+}

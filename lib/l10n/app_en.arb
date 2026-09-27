@@ -1,0 +1,80 @@
+{
+  "@@locale": "en",
+  "appTitle": "My Tutor",
+  "welcome": "Hello",
+  "readyToLearn": "Ready for your study session?",
+  "completedExercises": "{count} completed",
+  "@completedExercises": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "successRate": "{rate}% success",
+  "@successRate": {
+    "placeholders": {
+      "rate": { "type": "int" }
+    }
+  },
+  "level": "Level {level}",
+  "@level": {
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  },
+  "mySubjects": "Your Subjects",
+  "myCourses": "Your Courses",
+  "seeAll": "See all",
+  "navHome": "Home",
+  "navCourses": "Courses",
+  "navExercises": "Exercises",
+  "navQuiz": "Quiz",
+  "navProgress": "Progress",
+  "navProfile": "Profile",
+  "courseDetail": "Course Details",
+  "courseObjectives": "Chapter Objectives",
+  "courseSummary": "Course Summary",
+  "courseKeyConcepts": "Key Concepts",
+  "courseExamples": "Practical Examples",
+  "associatedExercises": "Associated Exercises",
+  "startExercises": "Practice this course",
+  "startQuiz": "Start Quiz",
+  "question": "Question",
+  "chooseAnswer": "Choose the correct answer:",
+  "validateAnswer": "Submit my answer",
+  "validating": "Submitting...",
+  "congratulations": "Well done! Great answer",
+  "wrongAnswer": "Not quite...",
+  "explanation": "Educational Explanation",
+  "detailedCorrection": "Detailed Correction",
+  "retry": "Try again",
+  "viewProgress": "View my progress",
+  "averageScore": "Average Score",
+  "completed": "Completed",
+  "recentHistory": "Recent Activity",
+  "myProfile": "My Profile",
+  "language": "Display Language",
+  "french": "French",
+  "english": "English",
+  "clearCache": "Clear local cache",
+  "clearCacheSubtitle": "Resets local storage",
+  "cacheCleared": "Local cache refreshed successfully.",
+  "logout": "Log out",
+  "demoMode": "Demo / Local Mode",
+  "cloudMode": "Connected to Firebase",
+  "noSubjects": "No subjects available at the moment.",
+  "noCourses": "No courses available at the moment.",
+  "noExercises": "No exercises available at the moment.",
+  "noProgress": "You have not completed any exercises yet.",
+  "startAnExercise": "Start an exercise",
+  "errorOccurred": "An issue occurred",
+  "tryAgain": "Try again",
+  "quizTitle": "Assessment Quiz",
+  "quizFinished": "Quiz completed!",
+  "quizScore": "Your score: {score}%",
+  "@quizScore": {
+    "placeholders": {
+      "score": { "type": "int" }
+    }
+  },
+  "backToDashboard": "Back to Dashboard"
+}

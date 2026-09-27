@@ -20,6 +20,10 @@ functions/lib/
 .swiftpm/
 migrate_working_dir/
 
+# Reference materials (CIAM PDFs - private / copyrighted)
+Doc/
+*.pdf
+
 # IntelliJ related
 *.iml
 *.ipr
