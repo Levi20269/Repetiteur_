@@ -30,6 +30,8 @@ void main() {
               .overrideWith((ref) => Future.value(testCourse)),
         ],
         child: const MaterialApp(
+          locale: Locale('fr'),
+          supportedLocales: AppLocalizations.supportedLocales,
           localizationsDelegates: [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,

@@ -65,7 +65,7 @@ class MonRepetiteurApp extends ConsumerWidget {
           elevation: 0,
           backgroundColor: Colors.transparent,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
@@ -76,7 +76,7 @@ class MonRepetiteurApp extends ConsumerWidget {
           surfaceTintColor: Colors.transparent,
           backgroundColor: Colors.white,
           elevation: 2,
-          shadowColor: Colors.black.withOpacity(0.06),
+          shadowColor: Colors.black.withValues(alpha: 0.06),
           iconTheme: WidgetStateProperty.resolveWith((states) {
             if (states.contains(WidgetState.selected)) {
               return const IconThemeData(color: Color(0xFF2563EB));

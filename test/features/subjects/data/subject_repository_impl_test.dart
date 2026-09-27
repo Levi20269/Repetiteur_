@@ -78,6 +78,7 @@ void main() {
       when(() => network.isConnected).thenAnswer((_) async => true);
       when(remote.getSubjects)
           .thenThrow(const AppException('Impossible de joindre le serveur.'));
+      when(() => cache.readList('subjects')).thenAnswer((_) async => null);
 
       await expectLater(repository.getSubjects(), throwsA(isA<AppException>()));
       verify(remote.getSubjects).called(1);

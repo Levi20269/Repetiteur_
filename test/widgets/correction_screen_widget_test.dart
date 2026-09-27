@@ -26,6 +26,8 @@ void main() {
               .overrideWith((ref) => Future.value(exercise)),
         ],
         child: const MaterialApp(
+          locale: Locale('fr'),
+          supportedLocales: AppLocalizations.supportedLocales,
           localizationsDelegates: [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
