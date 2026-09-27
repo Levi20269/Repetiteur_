@@ -8,30 +8,30 @@
 
 ---
 
-## 🚀 Fonctionnalités Clés
+##  Fonctionnalités Clés
 
-1. **📚 Fiches de Cours Détaillées :**
+1. ** Fiches de Cours Détaillées :**
    - Organisation par matière et chapitre.
    - Objectifs pédagogiques clairs, résumés synthétiques, notions clés et exemples d'application concrets.
-2. **✏️ Exercices & QCM Interactifs :**
+2. ** Exercices & QCM Interactifs :**
    - Entraînements ciblés avec sélection ergonomique des réponses.
    - Calcul des scores instantané et sécurisé.
-3. **📖 Corrections Détaillées Pas à Pas :**
+3. ** Corrections Détaillées Pas à Pas :**
    - Explications pédagogiques complètes pour comprendre les démarches de résolution.
-4. **⏱️ Quiz d’Évaluation :**
+4. ** Quiz d’Évaluation :**
    - Évaluations interactives par matière avec score final et récapitulatif détaillé des questions.
-5. **📈 Suivi de la Progression & Gamification :**
+5. ** Suivi de la Progression & Gamification :**
    - Historique complet, score moyen global, taux de réussite et système de niveaux d'expérience (XP).
-6. **🌐 Internationalisation Bilingue (Français & Anglais) :**
+6. ** Internationalisation Bilingue (Français & Anglais) :**
    - Prise en charge native du Français (FR) et de l'Anglais (EN) avec bascule instantanée dans le profil.
-7. **💾 Cache Local & Mode Hors-ligne :**
+7. ** Cache Local & Mode Hors-ligne :**
    - Persistance locale Hive permettant une utilisation fluide même sans connexion Internet.
-8. **♿ Accessibilité (A11y) & Performance :**
+8. ** Accessibilité (A11y) & Performance :**
    - Balises `Semantics` pour lecteurs d'écran, widgets découpés, utilisation de `const` et listes optimisées (`ListView.builder`).
 
 ---
 
-## 🏗️ Architecture du Projet
+##  Architecture du Projet
 
 Le projet suit l'architecture **Feature-First** recommandée par Flutter, garantissant modularité, testabilité et maintenabilité :
 
@@ -62,7 +62,7 @@ lib/
 
 ---
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 - **Framework :** Flutter 3.24+ & Dart 3.5+
 - **Gestion d'état :** `flutter_riverpod` (v2.6.1)
@@ -75,7 +75,7 @@ lib/
 
 ---
 
-## 📦 Installation & Lancement
+##  Installation & Lancement
 
 ### Prérequis
 - Flutter SDK (≥ 3.13.2)
@@ -105,7 +105,7 @@ flutter run --dart-define=API_BASE_URL=https://europe-west1-VOTRE_PROJET.cloudfu
 
 ---
 
-## 🧪 Tests & Qualité du Code
+##  Tests & Qualité du Code
 
 Le projet comporte une suite de **24 tests fonctionnels** :
 - **16 tests unitaires :** Repositories, logique métier, calculs de progression, scores et XP.
@@ -124,7 +124,7 @@ flutter analyze
 
 ---
 
-## 🔄 CI/CD & Déploiement
+##  CI/CD & Déploiement
 
 Le fichier `.github/workflows/ci.yml` automatise à chaque `push` et `pull request` :
 1. L'installation de l'environnement Flutter.
@@ -136,13 +136,13 @@ Le fichier `.github/workflows/ci.yml` automatise à chaque `push` et `pull reque
 
 ---
 
-## 📖 Contenu Pédagogique & Droits d'Auteur
+##  Contenu Pédagogique & Droits d'Auteur
 
 - Les cours, exercices, corrigés et quiz intégrés sont des **créations originales** inspirées des compétences du programme officiel du secondaire/lycée.
 - Aucune reproduction intégrale de manuels sous droits (CIAM) n'est présente dans ce dépôt. Les documents de travail privés sont exclus via `.gitignore`.
 
 ---
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
